@@ -115,5 +115,46 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.photos.force_pixel_eol=1 \
     debug.photos.p_editr.eraser=1
 
+# Google Overlays
+PRODUCT_PACKAGES += \
+    AvatarPickerPixelOverlay \
+    CellBroadcastReceiverOverlay \
+    CellBroadcastServiceOverlay \
+    GoogleConfigOverlay \
+    GoogleDeviceLockControllerOverlay \
+    GoogleHealthConnectOverlay \
+    GooglePermissionControllerOverlay \
+    GoogleWebViewOverlay \
+    ManagedProvisioningPixelOverlay \
+    GooglePermissionControllerSafetyCenterOverlay \
+    GoogleSettingsOverlay \
+    GoogleSystemUIOverlay \
+    PixelAccessibilityMenu \
+    PixelBuiltInPrintService \
+    PixelConfigOverlay2018 \
+    PixelConfigOverlay2019 \
+    PixelConfigOverlay2019Midyear \
+    PixelConfigOverlay2021 \
+    PixelConfigOverlayCommon \
+    PixelConnectivityOverlay2024 \
+    PixelContactsProvider \
+    PixelDeviceDiagnostics \
+    PixelDocumentsUIGoogleOverlay \
+    PixelLauncherNoGestureHintOverlay \
+    PixelLauncherOverlayCustom \
+    PixelSettingsGoogle \
+    PixelSettingsProvider \
+    PixelSetupWizardOverlayExpressive \
+    PixelSystemUIGoogle \
+    PixelTeleService \
+    PixelTelecom \
+    Pixelframework-res \
+    SystemUIGXOverlay \
+    UdfpsOverlay \
+    VerifierResOverlay \
+    WallpaperPicker2Overlay \
+    WallpaperPicker2PixelOverlay \
+    WildlifeSettingsVpnOverlay2022
+
 # Inherit from audio config
 $(call inherit-product, vendor/pixel-style/config/audio.mk)
