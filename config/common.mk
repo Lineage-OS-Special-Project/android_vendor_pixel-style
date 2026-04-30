@@ -115,7 +115,6 @@ PRODUCT_PACKAGES += \
     AvatarPickerPixelOverlay \
     CellBroadcastReceiverOverlay \
     CellBroadcastServiceOverlay \
-    GoogleConfigOverlay \
     GoogleDeviceLockControllerOverlay \
     GoogleHealthConnectOverlay \
     GooglePermissionControllerOverlay \
@@ -127,10 +126,7 @@ PRODUCT_PACKAGES += \
     PixelAccessibilityMenu \
     PixelBuiltInPrintService \
     PixelConfigOverlay2018 \
-    PixelConfigOverlay2019 \
     PixelConfigOverlay2019Midyear \
-    PixelConfigOverlay2021 \
-    PixelConfigOverlayCommon \
     PixelConnectivityOverlay2024 \
     PixelContactsProvider \
     PixelDeviceDiagnostics \
