@@ -117,6 +117,3 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Inherit from audio config
 $(call inherit-product, vendor/pixel-style/config/audio.mk)
-
-# Inherit from rro_overlays config
-$(call inherit-product, vendor/pixel-style/config/rro_overlays.mk)
